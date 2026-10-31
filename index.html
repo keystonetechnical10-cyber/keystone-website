@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Key Stone Technical Services (Pvt) Ltd. — Technical services, travel assistance and career opportunities in the UAE.">
+<title>Key Stone Technical Services (Pvt) Ltd.</title>
+<style>
+:root{--navy:#071426;--navy2:#0d2340;--gold:#d9ad50;--gold2:#f4d78c;--white:#f8fafc;--muted:#b9c5d5;--card:#10243d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#071426;color:var(--white);line-height:1.6}
+a{color:inherit;text-decoration:none}.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(7,20,38,.94);backdrop-filter:blur(12px);border-bottom:1px solid rgba(217,173,80,.25)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 0}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.4px}.mark{width:42px;height:42px;border:2px solid var(--gold);border-radius:12px;display:grid;place-items:center;color:var(--gold);font-size:24px;font-weight:900;transform:rotate(-3deg)}
+.brand small{display:block;font-size:10px;letter-spacing:2px;color:var(--gold);font-weight:600}
+nav{display:flex;gap:22px;align-items:center;font-size:14px;color:#dbe4ef}nav a:hover{color:var(--gold)}
+.lang{background:transparent;border:1px solid #52647a;color:white;border-radius:8px;padding:8px 10px}
+.hero{padding:86px 0 70px;background:radial-gradient(ellipse at 80% 20%,#173d67 0%,transparent 45%),linear-gradient(130deg,#071426,#0c2038 65%,#071426);overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+.eyebrow{color:var(--gold);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:12px}
+h1{font-size:clamp(36px,5vw,62px);line-height:1.08;margin:16px 0}h1 span{color:var(--gold)}
+.lead{font-size:18px;color:var(--muted);max-width:620px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 20px;border-radius:9px;font-weight:700;border:1px solid var(--gold);background:var(--gold);color:#101827}
+.btn.outline{background:transparent;color:var(--white);border-color:#71839a}.btn:hover{transform:translateY(-2px)}
+.hero-art{min-height:310px;border:1px solid rgba(217,173,80,.35);border-radius:24px;background:linear-gradient(145deg,rgba(20,53,86,.95),rgba(7,20,38,.8));display:grid;place-items:center;position:relative;overflow:hidden}
+.hero-art:before,.hero-art:after{content:"";position:absolute;border:1px solid rgba(217,173,80,.22);border-radius:50%;width:340px;height:340px}
+.hero-art:after{width:250px;height:250px}
+.big-k{font-size:130px;font-weight:900;color:transparent;-webkit-text-stroke:2px var(--gold);z-index:1;text-shadow:0 0 35px rgba(217,173,80,.15)}
+.art-caption{position:absolute;bottom:25px;letter-spacing:3px;font-size:11px;color:var(--gold2);z-index:2}
+section{padding:72px 0}.section-head{text-align:center;max-width:700px;margin:0 auto 38px}.section-head h2{font-size:clamp(28px,3vw,40px);margin:8px 0}.section-head p{color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:linear-gradient(145deg,#10243d,#0b1b2f);border:1px solid rgba(140,164,190,.16);border-radius:16px;padding:25px;transition:.2s}
+.card:hover{transform:translateY(-4px);border-color:rgba(217,173,80,.55)}
+.icon{font-size:27px;margin-bottom:14px}.card h3{margin:0 0 8px;color:var(--gold2)}.card p{margin:0;color:var(--muted);font-size:14px}
+.about{background:#0a1a2d}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:42px;align-items:center}.about h2{font-size:36px;margin:8px 0}.about p{color:var(--muted)}.checks{display:grid;gap:12px;margin-top:22px}.checks span:before{content:"✓";color:var(--gold);font-weight:900;margin-right:10px}
+.jobs-box{background:linear-gradient(120deg,#112a47,#0b1b2f);border:1px solid rgba(217,173,80,.3);border-radius:20px;padding:32px;display:flex;justify-content:space-between;gap:25px;align-items:center}.jobs-box p{color:var(--muted);margin-bottom:0}
+.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:22px}.contact-card{background:var(--card);border-radius:16px;padding:26px;border:1px solid rgba(140,164,190,.16)}.contact-item{margin:16px 0;color:var(--muted)}.contact-item b{display:block;color:var(--gold2);font-size:12px;text-transform:uppercase;letter-spacing:1px}
+form{display:grid;gap:12px}input,textarea,select{width:100%;padding:13px 14px;background:#071426;border:1px solid #334a64;border-radius:8px;color:white;font:inherit}textarea{min-height:120px;resize:vertical}
+footer{border-top:1px solid rgba(217,173,80,.2);padding:26px 0;color:var(--muted);font-size:13px}.footer-row{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+.whatsapp{position:fixed;right:20px;bottom:20px;background:#20c66b;color:#062316;border-radius:50px;padding:14px 18px;font-weight:800;box-shadow:0 8px 25px #0005;z-index:9}
+[dir="rtl"]{text-align:right} [dir="rtl"] .nav,[dir="rtl"] .footer-row{flex-direction:row-reverse}
+@media(max-width:800px){nav{display:none}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.hero{padding:58px 0}.hero-art{min-height:240px}.cards{grid-template-columns:1fr}.jobs-box{display:block}.jobs-box .btn{margin-top:18px}section{padding:55px 0}}
+</style>
+</head>
+<body>
+<header><div class="container nav">
+<a class="brand" href="#home"><span class="mark">K</span><span>KEY STONE<small>TECHNICAL SERVICES (PVT) LTD.</small></span></a>
+<nav><a href="#home" data-en="Home" data-si="මුල් පිටුව" data-ar="الرئيسية">Home</a><a href="#services" data-en="Services" data-si="සේවා" data-ar="الخدمات">Services</a><a href="#travel" data-en="Travel" data-si="සංචාර" data-ar="السفر">Travel</a><a href="#careers" data-en="Careers" data-si="රැකියා" data-ar="وظائف">Careers</a><a href="#contact" data-en="Contact" data-si="අමතන්න" data-ar="اتصل بنا">Contact</a></nav>
+<select class="lang" id="language" aria-label="Choose language"><option value="en">English</option><option value="si">සිංහල</option><option value="ar">العربية</option></select>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="container hero-grid">
+<div><div class="eyebrow" data-en="Your trusted service partner" data-si="ඔබේ විශ්වාසවන්ත සේවා සහකරු" data-ar="شريككم الموثوق للخدمات">Your trusted service partner</div>
+<h1 data-en="Solutions that move your business <span>forward.</span>" data-si="ඔබේ ව්‍යාපාරය ඉදිරියට ගෙන යන <span>විසඳුම්.</span>" data-ar="حلول تدفع أعمالكم <span>إلى الأمام.</span>">Solutions that move your business <span>forward.</span></h1>
+<p class="lead" data-en="Technical services, travel assistance and career opportunities — connected through one dependable team in the UAE." data-si="තාක්ෂණික සේවා, සංචාරක සහාය සහ රැකියා අවස්ථා — UAE හි විශ්වාසවන්ත කණ්ඩායමක් සමඟ." data-ar="خدمات فنية ومساعدة سفر وفرص وظيفية — من خلال فريق موثوق في الإمارات.">Technical services, travel assistance and career opportunities — connected through one dependable team in the UAE.</p>
+<div class="actions"><a class="btn" href="#services" data-en="Explore Services" data-si="සේවා බලන්න" data-ar="استكشف الخدمات">Explore Services</a><a class="btn outline" href="#contact" data-en="Contact Us" data-si="අප අමතන්න" data-ar="تواصل معنا">Contact Us</a></div></div>
+<div class="hero-art"><div class="big-k">K</div><div class="art-caption">KEY STONE • UAE</div></div>
+</div></section>
+<section id="services"><div class="container"><div class="section-head"><div class="eyebrow" data-en="What we do" data-si="අපගේ සේවා" data-ar="ما نقدمه">What we do</div><h2 data-en="Services built around your needs" data-si="ඔබේ අවශ්‍යතා සඳහා සේවා" data-ar="خدمات مصممة لتلبية احتياجاتكم">Services built around your needs</h2><p data-en="Practical support for businesses, travellers and job seekers." data-si="ව්‍යාපාර, සංචාරකයන් සහ රැකියා සොයන්නන් සඳහා ප්‍රායෝගික සහාය." data-ar="دعم عملي للشركات والمسافرين والباحثين عن عمل.">Practical support for businesses, travellers and job seekers.</p></div>
+<div class="cards">
+<div class="card"><div class="icon">⚙️</div><h3 data-en="Technical Services" data-si="තාක්ෂණික සේවා" data-ar="الخدمات الفنية">Technical Services</h3><p data-en="Professional technical support and service solutions tailored to your requirements." data-si="ඔබේ අවශ්‍යතාවලට ගැළපෙන වෘත්තීය තාක්ෂණික සහාය සහ සේවා විසඳුම්." data-ar="دعم فني وحلول خدمات احترافية تناسب متطلباتكم.">Professional technical support and service solutions tailored to your requirements.</p></div>
+<div class="card" id="travel"><div class="icon">✈️</div><h3 data-en="Travel & Tourism" data-si="සංචාරක සේවා" data-ar="السفر والسياحة">Travel & Tourism</h3><p data-en="Travel assistance, air-ticket enquiries, holiday planning and visa-related guidance." data-si="සංචාරක සහාය, ගුවන් ටිකට් විමසීම්, නිවාඩු සැලසුම් සහ වීසා සම්බන්ධ මඟපෙන්වීම." data-ar="مساعدة السفر واستفسارات تذاكر الطيران وتخطيط العطلات والإرشاد المتعلق بالتأشيرات.">Travel assistance, air-ticket enquiries, holiday planning and visa-related guidance.</p></div>
+<div class="card"><div class="icon">🤝</div><h3 data-en="Customer Support" data-si="පාරිභෝගික සහාය" data-ar="دعم العملاء">Customer Support</h3><p data-en="Friendly assistance and clear communication to help you find the right service." data-si="ඔබට සුදුසු සේවාව සොයාගැනීමට මිත්‍රශීලී සහාය සහ පැහැදිලි සන්නිවේදනය." data-ar="مساعدة ودية وتواصل واضح لمساعدتكم في اختيار الخدمة المناسبة.">Friendly assistance and clear communication to help you find the right service.</p></div>
+</div></div></section>
+<section class="about"><div class="container about-grid"><div><div class="eyebrow" data-en="Who we are" data-si="අප ගැන" data-ar="من نحن">Who we are</div><h2 data-en="Reliable support. Professional service." data-si="විශ්වාසවන්ත සහාය. වෘත්තීය සේවාව." data-ar="دعم موثوق. خدمة احترافية.">Reliable support. Professional service.</h2><p data-en="Key Stone is focused on making service enquiries simpler through responsive communication, practical solutions and customer care." data-si="Key Stone හි අරමුණ වන්නේ ඉක්මන් සන්නිවේදනය, ප්‍රායෝගික විසඳුම් සහ පාරිභෝගික සැලකිල්ල තුළින් සේවා විමසීම් පහසු කිරීමයි." data-ar="تركز Key Stone على تسهيل طلب الخدمات من خلال التواصل السريع والحلول العملية والاهتمام بالعملاء.">Key Stone is focused on making service enquiries simpler through responsive communication, practical solutions and customer care.</p><div class="checks"><span data-en="Customer-focused approach" data-si="පාරිභෝගික කේන්ද්‍රීය සේවාව" data-ar="نهج يركز على العميل">Customer-focused approach</span><span data-en="Clear and responsive communication" data-si="පැහැදිලි සහ ඉක්මන් සන්නිවේදනය" data-ar="تواصل واضح وسريع">Clear and responsive communication</span><span data-en="UAE-based contact and support" data-si="UAE පදනම් කරගත් සහාය" data-ar="دعم واتصال داخل الإمارات">UAE-based contact and support</span></div></div>
+<div class="hero-art"><div class="big-k">KS</div><div class="art-caption">YOUR TRUSTED SERVICE PARTNER</div></div></div></section>
+<section id="careers"><div class="container"><div class="section-head"><div class="eyebrow" data-en="Join our network" data-si="අප සමඟ එක්වන්න" data-ar="انضم إلى شبكتنا">Join our network</div><h2 data-en="Career opportunities" data-si="රැකියා අවස්ථා" data-ar="الفرص الوظيفية">Career opportunities</h2><p data-en="Interested in opportunities? Contact us to ask about current vacancies and application requirements." data-si="රැකියා අවස්ථා ගැන උනන්දුවක්ද? දැනට ඇති පුරප්පාඩු සහ අයදුම් කිරීමේ අවශ්‍යතා විමසීමට අප අමතන්න." data-ar="هل تبحث عن فرصة؟ تواصل معنا للاستفسار عن الشواغر الحالية ومتطلبات التقديم.">Interested in opportunities? Contact us to ask about current vacancies and application requirements.</p></div>
+<div class="jobs-box"><div><h3 data-en="Looking for your next opportunity?" data-si="ඔබේ ඊළඟ රැකියා අවස්ථාව සොයනවාද?" data-ar="هل تبحث عن فرصتك القادمة؟">Looking for your next opportunity?</h3><p data-en="Send your details or CV through WhatsApp. Vacancies are subject to availability and confirmation." data-si="ඔබේ විස්තර හෝ CV එක WhatsApp හරහා එවන්න. පුරප්පාඩු තිබීම සහ තහවුරු කිරීම මත අවස්ථා ලබාදේ." data-ar="أرسل بياناتك أو سيرتك الذاتية عبر واتساب. الشواغر حسب التوفر والتأكيد.">Send your details or CV through WhatsApp. Vacancies are subject to availability and confirmation.</p></div><a class="btn" href="https://wa.me/971553628307?text=Hello%20Key%20Stone%2C%20I%20would%20like%20to%20ask%20about%20career%20opportunities." target="_blank" rel="noopener" data-en="Ask about jobs" data-si="රැකියා විමසන්න" data-ar="استفسر عن الوظائف">Ask about jobs</a></div></div></section>
+<section id="contact" class="about"><div class="container"><div class="section-head"><div class="eyebrow" data-en="Get in touch" data-si="අප හා සම්බන්ධ වන්න" data-ar="تواصل معنا">Get in touch</div><h2 data-en="Let’s talk about what you need" data-si="ඔබට අවශ්‍ය දේ ගැන කතා කරමු" data-ar="لنتحدث عما تحتاجونه">Let’s talk about what you need</h2></div>
+<div class="contact-grid"><div class="contact-card"><h3>Key Stone Technical Services (Pvt) Ltd.</h3><div class="contact-item"><b>Phone / WhatsApp</b><a href="tel:+971553628307">+971 55 362 8307</a></div><div class="contact-item"><b>Email</b><a href="mailto:Kaushitharansamal1@gmail.com">Kaushitharansamal1@gmail.com</a></div><div class="contact-item"><b>Address</b>Office No. 201, Insurance Building, Al Rega, Dubai, UAE</div><div class="contact-item"><b>P.O. Box</b>2535, Dubai, UAE</div></div>
+<div class="contact-card"><form id="contactForm"><input id="name" required placeholder="Your name / ඔබේ නම / الاسم"><input id="email" type="email" placeholder="Email (optional)"><select id="topic"><option>Technical Services</option><option>Travel & Tourism</option><option>Career Opportunities</option><option>General Enquiry</option></select><textarea id="message" required placeholder="How can we help? / ඔබට සහාය විය හැක්කේ කෙසේද؟"></textarea><button class="btn" type="submit">Send enquiry via WhatsApp</button></form></div></div></div></section>
+</main>
+<a class="whatsapp" href="https://wa.me/971553628307" target="_blank" rel="noopener">☏ WhatsApp</a>
+<footer><div class="container footer-row"><span>© <span id="year"></span> Key Stone Technical Services (Pvt) Ltd. All rights reserved.</span><span>Dubai, UAE · Your Trusted Service Partner</span></div></footer>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+const langSel=document.getElementById('language');
+langSel.addEventListener('change',()=>{const lang=langSel.value;document.documentElement.lang=lang;document.documentElement.dir=lang==='ar'?'rtl':'ltr';document.querySelectorAll('[data-'+lang+']').forEach(el=>{el.innerHTML=el.getAttribute('data-'+lang)});});
+document.getElementById('contactForm').addEventListener('submit',e=>{e.preventDefault();const n=document.getElementById('name').value;const em=document.getElementById('email').value;const topic=document.getElementById('topic').value;const msg=document.getElementById('message').value;const text=`Hello Key Stone, my name is ${n}. Topic: ${topic}. ${msg} ${em?'Email: '+em:''}`;window.open('https://wa.me/971553628307?text='+encodeURIComponent(text),'_blank');});
+</script>
+</body></html>
