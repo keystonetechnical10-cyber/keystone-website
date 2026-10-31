@@ -1,21 +1,11 @@
-KEY STONE MULTI-PAGE WEBSITE
-
-Files included:
-- index.html (home page)
-- technical.html (technical service details)
-- travel.html (travel enquiry page)
-- jobs.html (job vacancy enquiry page)
-- apply.html (general application/enquiry form)
-- contact.html (contact details)
-- style.css (responsive design)
-- script.js (WhatsApp enquiry form behavior)
-- logo.jpeg (company logo)
-
-GitHub Pages publishing:
+KEY STONE WEBSITE UPDATE
 1. Extract this ZIP.
-2. Open the keystone-website repository.
-3. Upload all files from this folder into the repository root (not the folder itself).
-4. If prompted, replace index.html and commit changes.
-5. Wait a few minutes and open https://keystonetechnical10-cyber.github.io/keystone-website/
+2. Open your GitHub repository: keystone-website.
+3. Upload/replace all files in the repository root (index.html, technical.html, travel.html, jobs.html, visa.html, apply.html, contact.html, and logo.jpeg if included).
+4. Commit changes. GitHub Pages will publish the update after a short wait.
 
-Forms prepare WhatsApp messages to +971553628307. This static website does not store customer data or securely receive document uploads. Customers should attach documents directly in a verified WhatsApp conversation if requested.
+IMPORTANT:
+- The enquiry form creates a pre-filled WhatsApp message; the visitor must press Send in WhatsApp.
+- The file picker does NOT upload/store documents. Do not request sensitive documents through an unsecured channel.
+- Confirm all company address and service details before publishing.
+- Visa approvals and employment decisions are made by authorities/employers; never promise guaranteed outcomes.
